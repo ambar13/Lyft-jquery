@@ -1,0 +1,29 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.grad {
+    background: linear-gradient(rgb(83,0,96),rgb(200,8,130));
+  }
+
+  .vh100 {
+    height: 100vh;
+  }
+
+  .container-flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2 em;
+    height: 100vh;
+  }
+
+  .fond-register {
+    background-image: url("../assets/images/fondo.jpg");
+  }
+
+.mexico {
+  background-image: url('../assets/images/mexico.png');
+  height: 200px;
+  width: 200px;  
+}

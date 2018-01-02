@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" href="../css/main.css">
+  <title>Lyft Singup</title>
+</head>
+<body class="vh100">
+  <a href="register.html" type="button" class="btn btn-default">
+    <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+  </a>
+  <form class="container-flex-column text-center">
+    <h1 class="title">Sing Up</h1>
+    <h3>Join now for free ride credit</h3>
+    <hr>
+    <div class="form-group">
+      <select class="form-control">
+        <option selected value="mexico"><div class="mexico img-responsive">Mexico</div></option>
+        <option value="colombia"><img src="../assets/images/colombia.png">Colombia</option>
+        <option value="peru"><img src="../assets/images/peru.png">Peru</option>
+        <option value="eeuu"><img src="../assets/images/eeuu.png">EE.UU</option>
+      </select>
+      <input type="number" class="form-control" id="inputPhone" placeholder="Insert Number">
+    </div>
+    <br>
+    <br>
+    <h5>We'll send a text verify your phone</h5>
+    <button type="submit" id="next" class="btn btn-default" disabled> NEXT </button>
+    
+    </form>
+
+  
+  <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+	<script src="../js/verif.js"></script>
+</body>
+</html>
